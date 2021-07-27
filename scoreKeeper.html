@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scoreKeeper.css">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <section id="container">
+        <img src="https://www.familygoodthings.com/wp-content/uploads/2015/11/ping-pong.jpg" alt="Image unavailable">
+        <h2 class='title'>Ping Pong score keeper</h2>
+        <hr>
+        <section id="mainContent">
+            <h2><span id='playerOne'>0</span> to <span id="playerTwo">0</span></h2>
+            <p>Use the button below to input score</p>
+
+            <label for="points">Playing to</label>
+            <select name="maxPoints" id="points">
+                <option value="5" active>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+
+            <div class="buttonClass">
+                <button id="p1" class="btn">Player 1</button><button 
+                id="p2" class="btn">Player 2</button><button 
+                id="reset" class="btn">Reset</button>
+
+            </div>
+        </section>
+
+    </section>
+
+    <script src="scoreKeeper.js"></script>
+</body>
+
+</html>
